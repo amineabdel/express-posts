@@ -8,5 +8,13 @@
 <body>
   <h1>All posts</h1>
 
+  <ul class='body'>
+    <% for(var i=0; i < body.length; i++) {%>
+      <li class='body'>
+        <span><%= body[i].title %></span>
+        </li>
+    <% } %>
+    </ul>
+  <br />
 </body>
 </html>
